@@ -2,11 +2,11 @@
 from platform import python_branch
 
 
-print(Hello world)
+print (Hello world)
 
 # runtime error
-10 * (2/1)
+10 * (2/0)
 
 # semantic error
 name = "Alice"
-print("Hello name")
+print ("Hello name")
